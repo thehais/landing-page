@@ -312,7 +312,14 @@ header{
   .social{
     transform: rotate(180deg);
     bottom: 20px !important;
-    left: 7.8% !important;
+    justify-content: center;
+    display: flex;
+    position: inherit;
+    bottom: -100px;
+    margin-top: 91vh;
+  }
+  .social__list{
+    margin-left: 30px;
   }
   .social img{
     transform: rotate(180deg) !important;
