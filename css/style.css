@@ -310,7 +310,16 @@ header{
     margin-top: 30px;
   }
   .social{
-    display: none;
+    transform: rotate(180deg);
+    bottom: 20px !important;
+    left: 7.8% !important;
+  }
+  .social img{
+    transform: rotate(180deg) !important;
+  }
+  .social .shopee img{
+    position: absolute;
+    bottom: -5px;
   }
   .nav{
     height: 2.5rem;
